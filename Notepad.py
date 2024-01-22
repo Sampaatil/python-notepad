@@ -4,6 +4,8 @@ from tkinter import *
 from tkinter.messagebox import *
 from tkinter.filedialog import *
 
+s.environ['DISPLAY'] = ':0.0'
+
 class Notepad:
 
 	__root = Tk()
